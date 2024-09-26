@@ -1,4 +1,5 @@
-lst = [1, 2, 3, 4, 5]
+#palindrome
+lst = [1, 2, 3, 4, 5]#
 first_index = 0
 last_index = len(lst)-1
 while first_index <= last_index:
