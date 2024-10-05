@@ -1,1 +1,2 @@
-myList.remove(1)
+def buy(self):
+        return super().buy()
