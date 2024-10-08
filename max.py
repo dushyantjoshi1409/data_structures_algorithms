@@ -1,12 +1,9 @@
-class a:
-    def buy(self):
-        print("Buying a product")
-class b:
-    def buy(self):
-        print("Buying a product1")
-class c(b,  a):
-    def buy(self):
-        print("hi")  # Corrected: Removed the parentheses
-
-x = c()
-x.buy()
+a = 'my name is'
+b = a.split()
+d = ''
+for i in b:
+    if i == 'is':
+        d = i[::-1] + ' ' + d
+    else:
+        d = i + ' ' +  d
+print(d)

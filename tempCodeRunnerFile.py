@@ -1,2 +1,1 @@
-def buy(self):
-        return super().buy()
+MAX_CONNECTIONS
