@@ -53,3 +53,15 @@ def merge_sort(arr):
         while i < len(left) and j < len(right):
             if left[i] < right[j]:
                 arr[k] = left[i]
+
+#quick_sort
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
+arr = [3,4,6,3,2,33,4,5]
+print(quick_sort(arr))
