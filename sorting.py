@@ -40,3 +40,16 @@ def insertion_srot(arr):
 arr = [3,4,6,3,2,33,4,5]
 print(insertion_srot(arr))
 
+
+# merge_sort
+def merge_sort(arr):
+    if len(arr) > 1:
+        mid = len(arr) // 2
+        left = arr[:mid]
+        right = arr[mid:]
+        merge_sort(left)
+        merge_sort(right)
+        i = j = k = 0
+        while i < len(left) and j < len(right):
+            if left[i] < right[j]:
+                arr[k] = left[i]
