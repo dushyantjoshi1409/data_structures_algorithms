@@ -45,3 +45,4 @@ def fibonic_series(num):
     return ans
 print(fibonic_series(4))
         
+        
