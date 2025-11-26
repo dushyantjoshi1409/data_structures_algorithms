@@ -53,6 +53,7 @@ def merge_sort(arr):
         while i < len(left) and j < len(right):
             if left[i] < right[j]:
                 arr[k] = left[i]
+                i += 1
 
 #quick_sort
 def quick_sort(arr):
