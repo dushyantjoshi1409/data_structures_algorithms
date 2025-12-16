@@ -66,3 +66,5 @@ def quick_sort(arr):
     return quick_sort(left) + middle + quick_sort(right)
 arr = [3,4,6,3,2,33,4,5]
 print(quick_sort(arr))
+
+#testing phase
